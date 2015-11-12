@@ -12,5 +12,5 @@ require 'json'
     json= open(url).read
     data= JSON.parse(json)
 
-    puts data['product_brands']['quantity']
+    puts data['product']['product_name']
     end
